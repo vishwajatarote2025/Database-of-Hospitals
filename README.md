@@ -37,12 +37,12 @@ int main() {
         }
         printf("\nHospitals are arranged in ascending order of the distance from the college\n");
         printf("\n\n\n--------------NEAREST HOSPITALS FROM COLLEGE----------------");
-        for(i=0;i<=5;i++){
+        for(i=0;i<5;i++){
             printf("\n\nName of the Hospital: %s",em[i].name);
             printf("\nNumber of the Hospital: %d",em[i].no);
             printf("\nDistance of the Hospital: %d",em[i].dist);
-            printf("\x1b[4mThis text is underlined.\x1b[0m\n");
             printf("\n---------------------------------------------------------");
         }
      return 0;
 }
+
